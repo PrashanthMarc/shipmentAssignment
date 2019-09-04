@@ -140,10 +140,9 @@ class _ShipmentAppUIState extends State<ShipmentAppUI> {
                                                   color: Colors.grey))))))
                         ]),
                     Positioned(
-                      top: 8.0,
-                      right: 12.0,
-                      child: Text("*"),
-                    )
+                        top: 8.0,
+                        right: 12.0,
+                        child: Text("*", style: TextStyle(color: Colors.red))),
                   ]),
                   Stack(
                     children: <Widget>[
@@ -176,10 +175,9 @@ class _ShipmentAppUIState extends State<ShipmentAppUI> {
                         ],
                       ),
                       Positioned(
-                        top: 8.0,
-                        right: 12.0,
-                        child: Text("*"),
-                      )
+                          top: 8.0,
+                          right: 12.0,
+                          child: Text("*", style: TextStyle(color: Colors.red)))
                     ],
                   ),
                   SizedBox(height: 20.0),
